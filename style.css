@@ -17,6 +17,7 @@ body {
     display: flex;
     overflow: hidden;
     justify-content: space-around;
+    text-align: center;
 }
 
 .home,
@@ -69,8 +70,9 @@ body {
     margin-bottom: 10px;
 }
 
-img {
+.img {
     text-align: center;
+    margin: 20px;
 }
 
 .p1,
@@ -78,4 +80,14 @@ img {
 .p3 {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.fontes {
+    font-size: 20px;
+    text-align: center;
+}
+
+.TELA {
+    margin-left: 100px;
+    margin-right: 100px;
 }
