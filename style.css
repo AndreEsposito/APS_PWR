@@ -19,13 +19,64 @@ body {
     justify-content: space-around;
 }
 
-.home, .saiba_mais, .sobre_nos {
+.home,
+.saiba_mais,
+.sobre_nos {
     float: left;
     font-size: 30px;
     padding: 18px 18px;
     color: #216e0a;
+    text-overflow: ellipsis;
+}
+
+.home:hover {
+    font-size: 250%
+}
+
+.saiba_mais:hover {
+    font-size: 250%
+}
+
+.sobre_nos:hover {
+    font-size: 250%;
 }
 
 .logo {
     display: flex;
+}
+
+.titulo {
+    text-align: Center;
+    font-size: 150 px;
+    font-family: Castoro Titling;
+    margin: 20px;
+
+}
+
+.subtitle {
+    text-align: Center;
+    font-size: 100 px;
+    font-family: Castoro Titling;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.subtitle_2 {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    text-align: center;
+    margin: 30px;
+}
+
+.p1,
+.p2,
+.p3 {
+    margin-left: 20px;
+    margin-right: 20px;
 }
