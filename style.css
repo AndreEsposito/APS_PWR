@@ -17,6 +17,7 @@ body {
     display: flex;
     overflow: hidden;
     justify-content: space-around;
+    text-align: center;
 }
 
 .home,
@@ -83,6 +84,7 @@ footer {
 
 .direitosAutorais p{
     text-align: center;
+    margin: 20px;
 }
 
 .direitosAutorais {
