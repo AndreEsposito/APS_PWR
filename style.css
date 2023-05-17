@@ -1,0 +1,106 @@
+/* PÁGINA */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(imagens/background.png);
+    background-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    top: 0;
+    width: 100%;
+    background-color: #baad86;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.home,
+.saiba_mais,
+.sobre_nos {
+    float: left;
+    padding: 58px 40px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.home:hover,
+.saiba_mais:hover,
+.sobre_nos:hover {
+    background-color: #918668;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.title {
+    text-align: Center;
+    font-size: 150 px;
+    font-family: Castoro Titling;
+    margin: 20px;
+}
+
+.img {
+    text-align: center;
+    margin: 20px;
+}
+
+.imgPerfil {
+    display: block;
+    margin: auto;
+}
+
+.subtitle {
+    text-align: Center;
+    font-size: 100 px;
+    font-family: Castoro Titling;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.subtitle_2 {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p, ol, ul, li, h3, h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.btnLinkedin {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #baad86;
+    color: #000000;
+}
+
+.direitosAutorais p{
+    text-align: center;
+    margin: 20px;
+}
+
+.direitosAutorais {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pontoDestino {
+    margin-left: 20px;
+}
