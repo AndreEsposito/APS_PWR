@@ -50,10 +50,14 @@ body {
     margin: 20px;
 }
 
-
 .img {
     text-align: center;
     margin: 20px;
+}
+
+.imgPerfil {
+    display: block;
+    margin: auto;
 }
 
 .subtitle {
@@ -76,6 +80,10 @@ p, ol, ul, li, h3, h4 {
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
+}
+
+.btnLinkedin {
+    margin-left: 20px;
 }
 
 footer {
